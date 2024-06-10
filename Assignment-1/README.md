@@ -20,15 +20,14 @@ Entities:
 
 
 *  Click on Create A Model
-  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/bcbc41c8-574a-4092-ae48-10565802d9bf)
+    ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/bcbc41c8-574a-4092-ae48-10565802d9bf)
 
 * Now the resultant canvas will be:
 *  Demo of Simple Web Application
-
-![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/0e8c0bdd-10ae-4f14-8f9c-bac3501361c3)
+  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/0e8c0bdd-10ae-4f14-8f9c-bac3501361c3)
 
 * Identify and Analyse Threats: Navigate to ‘View’ then click ‘analysis view’
-  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/f54fedbd-7d16-4939-8032-def08d582413)
+ ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/f54fedbd-7d16-4939-8032-def08d582413)
 
 The Data flow sequence will be.
 Employee -> Web Application (Submit credentials) 
@@ -67,11 +66,11 @@ Web Server -> Employee (Display HRMS System)
 * Data Flow Type: HTTPS 
 * Description: The web server displays the leave status to the employee in HRMS System
 
-![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/081f887c-e0bc-45a4-bd42-74b5788d3db8)
+  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/081f887c-e0bc-45a4-bd42-74b5788d3db8)
 
 * Analysis View
 
-![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/2e5f27f1-2031-4e9f-8262-c93d5a086113)
+  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/2e5f27f1-2031-4e9f-8262-c93d5a086113)
 
 * We can choose a specific threat and check its properties
 
@@ -79,5 +78,5 @@ Web Server -> Employee (Display HRMS System)
 
 * A report is generated which lists all the threats in our model
 
-![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/7c79a6c6-73a0-4ee3-97e8-7afbf5b4d2e4)
+  ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/7c79a6c6-73a0-4ee3-97e8-7afbf5b4d2e4)
 
