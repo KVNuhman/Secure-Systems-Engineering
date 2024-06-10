@@ -1,20 +1,20 @@
 Assignment 1 
 Case study: Corporate HRMS System
- Define the Scope and Objectives 
+Define the Scope and Objectives 
 
 Scope: 
-• A corporate HRMS System where employees can log in, view account details, Change the database, Apply Leave. 
+* A corporate HRMS System where employees can log in, view account details, Change the database, Apply Leave. 
 
 Objectives: 
-• Identify potential threats. 
-• Assess the impact and likelihood of threats. 
-• Develop mitigation strategies. 
+* Identify potential threats. 
+* Assess the impact and likelihood of threats. 
+* Develop mitigation strategies. 
 
 Entities: 
-• Employee (External Entity) 
-• Web Server (Process) 
-• Database Server (Data Store) 
-• Authorization Server (Internal Entity)
+* Employee (External Entity) 
+* Web Server (Process) 
+* Database Server (Data Store) 
+* Authorization Server (Internal Entity)
 
 
 
