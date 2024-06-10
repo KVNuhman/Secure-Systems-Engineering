@@ -30,42 +30,42 @@ Entities:
 * Identify and Analyse Threats: Navigate to ‘View’ then click ‘analysis view’
   ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/f54fedbd-7d16-4939-8032-def08d582413)
 
-  The Data flow sequence will be.
- Employee -> Web Application (Submit credentials) 
-o Data Flow Type: HTTP 
-o Description: Employee submits login credentials to the web application.
+The Data flow sequence will be.
+Employee -> Web Application (Submit credentials) 
+* Data Flow Type: HTTP 
+* Description: Employee submits login credentials to the web application.
 
 Web Application -> Authorization Server (Verify credentials) 
-o Data Flow Type: HTTPS 
-o Description: The web application sends the credentials to the authorization server for verification.
+* Data Flow Type: HTTPS 
+* Description: The web application sends the credentials to the authorization server for verification.
 
 Authorization Server -> Web Application (Send account details) 
-o Data Flow Type: HTTPS
-o Description: The authorization server sends the account details back to the web application. 
+* Data Flow Type: HTTPS
+* Description: The authorization server sends the account details back to the web application. 
 
 Web Application -> Employee (Display account details) 
-o Data Flow Type: HTTP 
-o Description: The web application displays the account details to the customer. 
+* Data Flow Type: HTTP 
+* Description: The web application displays the account details to the customer. 
 
 Employee -> Web Application (Request Applying Leave) 
-o Data Flow Type: HTTPS 
-o Description: The employee requests a applying leave through the web application.
+* Data Flow Type: HTTPS 
+* Description: The employee requests a applying leave through the web application.
 
 Web Server -> Authorization Server (Update Leave Account) 
-o Data Flow Type: HTTPS 
-o Description: The web server sends the leave request to the authorization server to update the leaves. 
+* Data Flow Type: HTTPS 
+* Description: The web server sends the leave request to the authorization server to update the leaves. 
 
 Web Server -> SQL Database Server (Initiate request for Update) 
-o Data Flow Type: HTTPS 
-o Description: The web server initiates the request with the database server 
+* Data Flow Type: HTTPS 
+* Description: The web server initiates the request with the database server 
 
 SQL Database Server -> Web Server (Confirm Update) 
-o Data Flow Type: HTTPS 
-o Description: The SQL Database Server confirms the update and sends the confirmation back to the web server. 
+* Data Flow Type: HTTPS 
+* Description: The SQL Database Server confirms the update and sends the confirmation back to the web server. 
 
 Web Server -> Employee (Display HRMS System) 
-o Data Flow Type: HTTPS 
-o Description: The web server displays the leave status to the employee in HRMS System
+* Data Flow Type: HTTPS 
+* Description: The web server displays the leave status to the employee in HRMS System
 
 ![image](https://github.com/KVNuhman/Secure-Systems-Engineering/assets/46161259/081f887c-e0bc-45a4-bd42-74b5788d3db8)
 
